@@ -118,6 +118,18 @@ a:hover {
   background-color: #5c7e10;
 }
 
+.btn2 {
+  display: inline-block;        /* чтобы ссылки вели себя как кнопки */
+  padding: 5px 10px;           /* внутренние отступы */
+  margin: 2px;                 /* расстояние между кнопками */
+  color: white;                 /* цвет текста */
+  font-size: 12px;              /* размер текста */
+  font-weight: bold;            /* жирный шрифт */
+  text-decoration: none;        /* убрать подчеркивание */
+  border-radius: 10px;          /* скруглённые углы */
+  background-color: #050545b6;
+}
+
 .comments {
   margin-top: 20px;
   padding: 15px;
