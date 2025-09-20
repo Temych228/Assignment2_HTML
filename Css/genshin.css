@@ -60,14 +60,14 @@ a:hover {
   }
 
   .photo2 {
-     margin-top: 52px;  /* одинаковый верхний отступ, как у photo1 */
+     margin-top: 92px;  /* одинаковый верхний отступ, как у photo1 */
      margin-left: 20px;    /* убираем лишний левый отступ */
      margin-right: 0;   /* можно тоже убрать */
      box-shadow: 0 10px 8px rgba(0,0,0,0.3);
   }
 
 
-  .coloumn3 {
+  .column3 {
      padding: 0 20px;
      width: 350px;
   }
@@ -116,6 +116,18 @@ a:hover {
   text-decoration: none;        /* убрать подчеркивание */
   border-radius: 10px;          /* скруглённые углы */
   background-color: #5c7e10;
+}
+
+.btn2 {
+  display: inline-block;        /* чтобы ссылки вели себя как кнопки */
+  padding: 5px 10px;           /* внутренние отступы */
+  margin: 2px;                 /* расстояние между кнопками */
+  color: rgb(115, 115, 115);                 /* цвет текста */
+  font-size: 12px;              /* размер текста */
+  font-weight: bold;            /* жирный шрифт */
+  text-decoration: none;        /* убрать подчеркивание */
+  border-radius: 10px;          /* скруглённые углы */
+  background-color: #ffffff;
 }
 
 .comments {

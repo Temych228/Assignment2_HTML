@@ -67,7 +67,7 @@ a:hover {
   }
 
 
-  .coloumn3 {
+  .column3 {
      padding: 0 20px;
      width: 350px;
   }
@@ -122,12 +122,12 @@ a:hover {
   display: inline-block;        /* чтобы ссылки вели себя как кнопки */
   padding: 5px 10px;           /* внутренние отступы */
   margin: 2px;                 /* расстояние между кнопками */
-  color: white;                 /* цвет текста */
+  color: rgb(115, 115, 115);                 /* цвет текста */
   font-size: 12px;              /* размер текста */
   font-weight: bold;            /* жирный шрифт */
   text-decoration: none;        /* убрать подчеркивание */
   border-radius: 10px;          /* скруглённые углы */
-  background-color: #050545b6;
+  background-color: #ffffff;
 }
 
 .comments {
