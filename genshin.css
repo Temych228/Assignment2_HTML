@@ -54,13 +54,80 @@ a:hover {
 }
 
   .photo1 {
-    margin: 20px;        
+    margin-top: 20px;  
+    margin-bottom: 20px;      
     box-shadow: 0 10px 8px rgba(0,0,0,0.3);
   }
 
   .photo2 {
-    margin: 20px;        
-    box-shadow: 0 10px 8px rgba(0,0,0,0.3);
-    vertical-align: 182px;
-    
+     margin-top: 132px;  /* одинаковый верхний отступ, как у photo1 */
+     margin-left: 20px;    /* убираем лишний левый отступ */
+     margin-right: 0;   /* можно тоже убрать */
+     box-shadow: 0 10px 8px rgba(0,0,0,0.3);
   }
+
+
+  .coloumn3 {
+     padding: 0 20px;
+     width: 350px;
+  }
+  
+ .requirements {
+  border: 2px solid orange;   /* рамка оранжевая */
+  padding: 15px;
+  margin-top: 20px;
+  width: 550px;              /* ширина как у большой картинки */
+  background-color: #2a475e; /* фон в стиле Steam */
+  border-radius: 5px;
+}
+
+.system-req {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.req-block {
+  width: 48%;
+}
+
+.req-block h3 {
+  margin-top: 0;
+  color: #ffcc66;
+}
+
+.req-block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.req-block li {
+  margin-bottom: 6px;
+}
+
+.btn {
+  display: inline-block;        /* чтобы ссылки вели себя как кнопки */
+  padding: 15px 30px;           /* внутренние отступы */
+  margin: 3px;                 /* расстояние между кнопками */
+  color: white;                 /* цвет текста */
+  font-size: 15px;              /* размер текста */
+  font-weight: bold;            /* жирный шрифт */
+  text-decoration: none;        /* убрать подчеркивание */
+  border-radius: 10px;          /* скруглённые углы */
+  background-color: #5c7e10;
+}
+
+.comments {
+  margin-top: 20px;
+  padding: 15px;
+  background: #1b1b1b; 
+  color: white;
+  border-radius: 10px;
+  width: 320px;   /* ширина блока */
+}
+
+.comment {
+  border-bottom: 1px solid gray;
+  padding: 8px 0;
+}
