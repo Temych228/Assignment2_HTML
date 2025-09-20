@@ -60,7 +60,7 @@ a:hover {
   }
 
   .photo2 {
-     margin-top: 52px;  /* одинаковый верхний отступ, как у photo1 */
+     margin-top: 92px;  /* одинаковый верхний отступ, как у photo1 */
      margin-left: 20px;    /* убираем лишний левый отступ */
      margin-right: 0;   /* можно тоже убрать */
      box-shadow: 0 10px 8px rgba(0,0,0,0.3);
