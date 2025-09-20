@@ -53,16 +53,14 @@ a:hover {
   background-color: #4b6b0f;
 }
 
-  .photo1 {
-    margin-top: 20px;  
+  .photo1 {  
     margin-bottom: 20px;      
     box-shadow: 0 10px 8px rgba(0,0,0,0.3);
   }
 
   .photo2 {
-     margin-top: 92px;  /* одинаковый верхний отступ, как у photo1 */
-     margin-left: 20px;    /* убираем лишний левый отступ */
-     margin-right: 0;   /* можно тоже убрать */
+    margin-top: 65px;
+     margin-left: 20px;
      box-shadow: 0 10px 8px rgba(0,0,0,0.3);
   }
 
