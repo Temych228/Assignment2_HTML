@@ -59,7 +59,7 @@ a:hover {
   }
 
   .photo2 {
-    margin-top: 160px;
+    margin-top: 135px;
      margin-left: 20px;    
      margin-right: 0;   
      box-shadow: 0 10px 8px rgba(0,0,0,0.3);
@@ -135,10 +135,25 @@ a:hover {
   background: #1b1b1b; 
   color: white;
   border-radius: 10px;
-  width: 320px;  
+  width: 320px;   
 }
 
 .comment {
+  display: flex;              
+  align-items: flex-start;   
   border-bottom: 1px solid gray;
   padding: 8px 0;
+}
+
+
+.comment img.avatar {
+  width: 40px;             
+  height: 40px;
+  border-radius: 50%;     
+  object-fit: cover;       
+  margin-right: 10px;     
+}
+
+.comment p {
+  margin: 0;              
 }
