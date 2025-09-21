@@ -59,7 +59,7 @@ a:hover {
   }
 
   .photo2 {
-    margin-top: 65px;
+    margin-top: 20px;
      margin-left: 20px;
      box-shadow: 0 10px 8px rgba(0,0,0,0.3);
   }
@@ -138,6 +138,21 @@ a:hover {
 }
 
 .comment {
+  display: flex;              
+  align-items: flex-start;   
   border-bottom: 1px solid gray;
   padding: 8px 0;
+}
+
+
+.comment img.avatar {
+  width: 40px;             
+  height: 40px;
+  border-radius: 50%;     
+  object-fit: cover;       
+  margin-right: 10px;     
+}
+
+.comment p {
+  margin: 0;              
 }
