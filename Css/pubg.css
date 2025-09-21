@@ -65,6 +65,7 @@ a:hover {
 }
 
 
+<<<<<<< HEAD
 .column3 {
   padding: 0 20px;
   width: 350px;
@@ -76,6 +77,19 @@ a:hover {
   margin-top: 20px;
   width: 550px;
   background-color: #2a475e;
+=======
+  .column3 {
+     padding: 0 20px;
+     width: 350px;
+  }
+  
+ .requirements {
+  border: 2px solid orange;  
+  padding: 15px;
+  margin-top: 20px;
+  width: 550px;              
+  background-color: #2a475e; 
+>>>>>>> 50c0f22e57afa9d52b800b0017c73e19c4b30cae
   border-radius: 5px;
 }
 
@@ -105,6 +119,7 @@ a:hover {
 }
 
 .btn {
+<<<<<<< HEAD
   display: inline-block;
   padding: 15px 30px;
   margin: 3px;
@@ -113,10 +128,21 @@ a:hover {
   font-weight: bold;
   text-decoration: none;
   border-radius: 10px;
+=======
+  display: inline-block;        
+  padding: 15px 30px;          
+  margin: 3px;                
+  color: white;             
+  font-size: 15px;           
+  font-weight: bold;          
+  text-decoration: none;       
+  border-radius: 10px;     
+>>>>>>> 50c0f22e57afa9d52b800b0017c73e19c4b30cae
   background-color: #5c7e10;
 }
 
 .btn2 {
+<<<<<<< HEAD
   display: inline-block;
   padding: 5px 10px;
   margin: 2px;
@@ -125,6 +151,16 @@ a:hover {
   font-weight: bold;
   text-decoration: none;
   border-radius: 10px;
+=======
+  display: inline-block;     
+  padding: 5px 10px;         
+  margin: 2px;              
+  color: rgb(115, 115, 115);                
+  font-size: 12px;            
+  font-weight: bold;       
+  text-decoration: none;      
+  border-radius: 10px;        
+>>>>>>> 50c0f22e57afa9d52b800b0017c73e19c4b30cae
   background-color: #ffffff;
 }
 
@@ -134,7 +170,11 @@ a:hover {
   background: #1b1b1b;
   color: white;
   border-radius: 10px;
+<<<<<<< HEAD
   width: 320px;
+=======
+  width: 320px;   
+>>>>>>> 50c0f22e57afa9d52b800b0017c73e19c4b30cae
 }
 
 .comment {
