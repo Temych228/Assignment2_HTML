@@ -53,29 +53,29 @@ a:hover {
   background-color: #4b6b0f;
 }
 
-  .photo1 {  
-    margin-bottom: 20px;      
-    box-shadow: 0 10px 8px rgba(0,0,0,0.3);
-  }
+.photo1 {
+  margin-bottom: 20px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.3);
+}
 
-  .photo2 {
-    margin-top: 65px;
-     margin-left: 20px;
-     box-shadow: 0 10px 8px rgba(0,0,0,0.3);
-  }
+.photo2 {
+  margin-top: 65px;
+  margin-left: 20px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.3);
+}
 
 
-  .column3 {
-     padding: 0 20px;
-     width: 350px;
-  }
-  
- .requirements {
-  border: 2px solid orange;   /* рамка оранжевая */
+.column3 {
+  padding: 0 20px;
+  width: 350px;
+}
+
+.requirements {
+  border: 2px solid orange;
   padding: 15px;
   margin-top: 20px;
-  width: 550px;              /* ширина как у большой картинки */
-  background-color: #2a475e; /* фон в стиле Steam */
+  width: 550px;
+  background-color: #2a475e;
   border-radius: 5px;
 }
 
@@ -105,36 +105,36 @@ a:hover {
 }
 
 .btn {
-  display: inline-block;        /* чтобы ссылки вели себя как кнопки */
-  padding: 15px 30px;           /* внутренние отступы */
-  margin: 3px;                 /* расстояние между кнопками */
-  color: white;                 /* цвет текста */
-  font-size: 15px;              /* размер текста */
-  font-weight: bold;            /* жирный шрифт */
-  text-decoration: none;        /* убрать подчеркивание */
-  border-radius: 10px;          /* скруглённые углы */
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
   background-color: #5c7e10;
 }
 
 .btn2 {
-  display: inline-block;        /* чтобы ссылки вели себя как кнопки */
-  padding: 5px 10px;           /* внутренние отступы */
-  margin: 2px;                 /* расстояние между кнопками */
-  color: rgb(115, 115, 115);                 /* цвет текста */
-  font-size: 12px;              /* размер текста */
-  font-weight: bold;            /* жирный шрифт */
-  text-decoration: none;        /* убрать подчеркивание */
-  border-radius: 10px;          /* скруглённые углы */
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 2px;
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
   background-color: #ffffff;
 }
 
 .comments {
   margin-top: 20px;
   padding: 15px;
-  background: #1b1b1b; 
+  background: #1b1b1b;
   color: white;
   border-radius: 10px;
-  width: 320px;   /* ширина блока */
+  width: 320px;
 }
 
 .comment {
