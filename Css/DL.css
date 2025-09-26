@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'San Francisco', system-ui;
   background-color: #1b2838;
   color: #fff;
 }
@@ -53,97 +53,166 @@ a:hover {
   background-color: #4b6b0f;
 }
 
-  .photo1 {  
-    margin-bottom: 20px;      
-    box-shadow: 0 10px 8px rgba(0,0,0,0.3);
-  }
-
-.photo2 {
-  margin-top: 150px;
-  margin-left: 20px;
-  box-shadow: 0 10px 8px rgba(0,0,0,0.3);
-}
-
-  .column3 {
-     padding: 0 20px;
-     width: 350px;
-  }
-  
- .requirements {
-  border: 2px solid orange;  
-  padding: 15px;
-  margin-top: 20px;
-  width: 550px;          
-  background-color: #2a475e;
-  border-radius: 5px;
-}
-
-.system-req {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.req-block {
-  width: 48%;
-}
-
-.req-block h3 {
-  color: #ffcc66;
-}
-
-.req-block ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.req-block li {
-  margin-bottom: 6px;
-}
-
-.btn {
-  display: inline-block;    
-  padding: 15px 30px;       
-  margin: 3px;             
-  color: white;         
-  font-size: 15px;          
-  font-weight: bold;          
-  text-decoration: none;       
-  border-radius: 10px;         
-  background-color: #5c7e10;
-}
-
-.btn2 {
-  display: inline-block;      
-  padding: 5px 10px;        
-  margin: 2px;                
-  color: rgb(115, 115, 115);                
-  font-size: 12px;            
-  font-weight: bold;           
-  text-decoration: none;        
-  border-radius: 10px;          
-  background-color: #ffffff;
-}
-
-.comments {
-  margin-top: 20px;
-  padding: 15px;
-  background: #1b1b1b; 
-  color: white;
-  border-radius: 10px;
-  width: 320px;   
-}
-
-.comment {
-  border-bottom: 1px solid gray;
-  padding: 8px 0;
-}
-
 footer {
+  grid-area: footer;
   padding: 10px;
   background-color: rgb(2, 0, 24);
   border: none;
   font-size: 14px;
   line-height: 0.01;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "header"
+      "main"
+      "sidebar"
+      "footer";
+    grid-template-columns: 1fr; 
+  }
+
+  .games-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+}
+
+.col p,
+footer p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.col.side {
+    width: 20%;
+}
+
+.col.space {
+    width: 15%;
+}
+
+.col.main {
+  flex: 1;
+  max-width: 38%; 
+  padding-right: 5px;
+}
+
+.col.info {
+  flex: 1;
+  max-width: 27%;
+}
+
+.col img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo1 {
+    margin-bottom: 20px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.photo2 {
+    margin-top: 120px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.column3 {
+    width: 350px;
+}
+
+.requirements {
+    border: 2px solid orange;
+    padding: 15px;
+    margin-top: 20px;
+    width: 550px;
+    background-color: #2a475e;
+    border-radius: 5px;
+}
+
+.system-req {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.req-block {
+    width: 48%;
+}
+
+.req-block h3 {
+    margin-top: 0;
+    color: #ffcc66;
+}
+
+.req-block ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.req-block li {
+    margin-bottom: 6px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #5c7e10;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.comments {
+    margin-top: 20px;
+    padding: 15px;
+    background: #1b1b1b;
+    color: white;
+    border-radius: 10px;
+    width: 320px;
+}
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid gray;
+    padding: 8px 0;
+}
+
+input {
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  border-color: #ffffff;
 }
