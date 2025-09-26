@@ -157,3 +157,11 @@ a:hover {
 .comment p {
   margin: 0;              
 }
+
+footer {
+  padding: 10px;
+  background-color: rgb(2, 0, 24);
+  border: none;
+  font-size: 14px;
+  line-height: 0.01;
+}

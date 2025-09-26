@@ -174,3 +174,11 @@ a:hover {
   margin-top: 6px;
   border-radius: 9999px;
 }
+
+footer {
+  padding: 10px;
+  background-color: rgb(2, 0, 24);
+  border: none;
+  font-size: 14px;
+  line-height: 0.01;
+}
