@@ -5,7 +5,21 @@ body {
   color: #fff;
 }
 
+/* === GRID LAYOUT === */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 200px 1fr;  /* sidebar фикс ширины + main занимает остаток */
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+/* Привязка к областям */
 header {
+  grid-area: header;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +27,28 @@ header {
   padding: 10px 20px;
 }
 
+.sidebar {
+  grid-area: sidebar;
+  background-color: #2a475e;
+  padding: 15px;
+}
+
+main {
+  grid-area: main;
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+  padding: 10px;
+  background-color: rgb(2, 0, 24);
+  border: none;
+  font-size: 14px;
+  line-height: 0.01;
+  text-align: center;
+}
+
+/* === HEADER === */
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -27,6 +63,11 @@ header {
   border-radius: 3px;
 }
 
+.install:hover {
+  background-color: #4b6b0f;
+}
+
+/* === LINKS === */
 a {
   color: #c7d5e0;
   text-decoration: none;
@@ -36,21 +77,12 @@ a:hover {
   color: white;
 }
 
-.sidebar {
-  background-color: #2a475e;
-  padding: 15px;
-  width: 200px;
-}
-
+/* === CARDS & GAMES GRID === */
 .game-card {
   background-color: #2a475e;
   padding: 15px;
   margin: 10px 0;
   border-radius: 5px;
-}
-
-.install:hover {
-  background-color: #4b6b0f;
 }
 
 img {
@@ -79,10 +111,23 @@ img {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
-footer {
-  padding: 10px;
-  background-color: rgb(2, 0, 24);
-  border: none;
-  font-size: 14px;
-  line-height: 0.01;
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "header"
+      "main"
+      "sidebar"
+      "footer";
+    grid-template-columns: 1fr;  /* одна колонка */
+  }
+
+  .games-grid {
+    grid-template-columns: 1fr;  /* игры в одну колонку */
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }

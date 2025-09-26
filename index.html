@@ -1,77 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>Steam</title>
-        <link rel="stylesheet" href="Css/steamcss.css"/>
-    </head>
+<head>
+  <title>Steam</title>
+  <link rel="stylesheet" href="Css/steamcss.css"/>
+</head>
 
-    <body>
-        <header>
-            <div class="logo" style="width: 100px;">STEAM</div>
-            <nav class="top-menu">
-                <a href="#store">STORE  </a> 
-                <a href="https://steamcommunity.com/">COMMUNITY  </a> 
-                <a href="https://store.steampowered.com/about/">ABOUT  </a> 
-                <a href="https://help.steampowered.com/en/">SUPPORT  </a> 
-            </nav>
+<body>
+  <div class="grid-container">
 
-            <div class="actions">
-                <button class="install" onclick="location.href='https:/store.steampowered.com/about/?snr=1_4_4__global-header'">Install Steam</button>
-                <a href="https://store.steampowered.com/login/?redir=&redir_ssl=1&snr=1_4_4__global-header">login</a> 
-                <a href="index.html">EN</a> | <a href="index-ru.html">RU</a>
-            </div>
-        </header>
+    <header class="header">
+      <div class="logo" style="width: 100px;">STEAM</div>
+      <nav class="top-menu">
+        <a href="#store">STORE</a> 
+        <a href="https://steamcommunity.com/">COMMUNITY</a> 
+        <a href="https://store.steampowered.com/about/">ABOUT</a> 
+        <a href="https://help.steampowered.com/en/">SUPPORT</a> 
+      </nav>
+      <div class="actions">
+        <button class="install" onclick="location.href='https:/store.steampowered.com/about/?snr=1_4_4__global-header'">Install Steam</button>
+        <a href="https://store.steampowered.com/login/?redir=&redir_ssl=1&snr=1_4_4__global-header">login</a> 
+        <a href="index.html">EN</a> | <a href="index-ru.html">RU</a>
+      </div>
+    </header>
 
-        <table border-collapse="10px" width="100%" cellpadding="10">
-            <tr>
-                
-                <td width="15%" valign="top">
-                   <h3>RECOMMENDED</h3>
-                    <a href="#">By Friends</a> <br>
-                    <a href="#">By Curators</a> <br>
-                    <a href="#">Tags</a> <br>
-                   <h3>BROWSE CATEGORIES</h3>
-                    <a href="#">Top Salers</a> <br>
-                    <a href="#">New Releases</a> <br>
-                    <a href="#">Upcoming</a> <br>
-                    <a href="#">Specials</a> <br>
-                    <a href="#">VR Titles</a> <br>
-                    <a href="#">Controller-Friendly</a> <br>
-                    <a href="#">Great on Deck</a> <br>
-                   <h3>RECOMMENDED</h3>
-                    <a href="#">Free To Play</a> <br>
-                    <a href="#">Early Access</a> <br>
-                    <a href="#">Action</a> <br>
-                    <a href="#">Adventure</a> <br>
-                    <a href="#">Casual</a> <br>
-                    <a href="#">Indie</a> <br>
-                    <a href="#">Massively Multiplayer</a> <br>
-                    <a href="#">Racing</a> <br>
-                    <a href="#">RPG</a> <br>
-                    <a href="#">Simulation</a> <br>
-                    <a href="#">Sports</a> <br>
-                    <a href="#">Strategy</a> <br>
-                </td>
+    <aside class="sidebar">
+      <h3>RECOMMENDED</h3>
+      <a href="#">By Friends</a> <br>
+      <a href="#">By Curators</a> <br>
+      <a href="#">Tags</a> <br>
+      <h3>BROWSE CATEGORIES</h3>
+      <a href="#">Top Salers</a> <br>
+      <a href="#">New Releases</a> <br>
+      <a href="#">Upcoming</a> <br>
+      <a href="#">Specials</a> <br>
+      <a href="#">VR Titles</a> <br>
+      <a href="#">Controller-Friendly</a> <br>
+      <a href="#">Great on Deck</a> <br>
+      <h3>GENRES</h3>
+      <a href="#">Free To Play</a> <br>
+      <a href="#">Early Access</a> <br>
+      <a href="#">Action</a> <br>
+      <a href="#">Adventure</a> <br>
+      <a href="#">Casual</a> <br>
+      <a href="#">Indie</a> <br>
+      <a href="#">Massively Multiplayer</a> <br>
+      <a href="#">Racing</a> <br>
+      <a href="#">RPG</a> <br>
+      <a href="#">Simulation</a> <br>
+      <a href="#">Sports</a> <br>
+      <a href="#">Strategy</a> <br>
+    </aside>
 
-                <td width="85%" valign="top">
-                    <h2 id="store" style="text-align: center;">Games</h2>
-                    <div class="games-grid">
-                        <img src="Photos/header.jpg" onclick="location.href='CSindex.html'">
-                        <img src="Photos/header2.jpg" onclick="location.href='pubg.html'">
-                        <img src="Photos/header3.jpg" onclick="location.href='DLindex.html'">
-                        <img src="Photos/header4.jpg" onclick="location.href='genshinindex.html'">
-                    </div>
-                </td>
+    <main class="main">
+      <h2 id="store" style="text-align: center;">Games</h2>
+      <div class="games-grid">
+        <img src="Photos/header.jpg" onclick="location.href='CSindex.html'">
+        <img src="Photos/header2.jpg" onclick="location.href='pubg.html'">
+        <img src="Photos/header3.jpg" onclick="location.href='DLindex.html'">
+        <img src="Photos/header4.jpg" onclick="location.href='genshinindex.html'">
+      </div>
+    </main>
 
-            </tr>
-        </table>
+    <footer class="footer">
+      <p>Team members: Safaryan Artyom , Faizrakhman Alikhan</p>
+      <p>SE-2408</p>
+    </footer>
 
-        <footer>
-            <p>Team members: Safaryan Artyom , Faizrakhman Alikhan</p> <br>
-            <p>SE-2408</p>
-        </footer>
-        
-    </body>
-
+  </div>
+</body>
 </html>
